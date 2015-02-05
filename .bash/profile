@@ -13,4 +13,11 @@ for s in ~/.bash_local
 do ! [ -r $s ] || . $s
 done
 
+# Uncomment below to enable bash completion.
+# Command to install: brew install bash-completion
+
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#   . $(brew --prefix)/etc/bash_completion
+# fi
+
 # vim:et:ts=4:sw=4:sts=4
