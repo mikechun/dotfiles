@@ -532,7 +532,7 @@ VAMActivate LaTeX-Suite_aka_Vim-LaTeX
 "VAMActivate LaTeX_Box
 
 VAMActivate localvimrc  " vim-addon-local-vimrc
-  let g:localvimrc_name = [ ".lvimrc", ".vimrc" ]
+" let g:localvimrc_name = [ ".lvimrc", ".vimrc" ]
   let g:localvimrc_persistent = 1
   let g:localvimrc_sandbox = 0
 
