@@ -398,7 +398,7 @@ let g:sparkup = {}
   let g:sparkup.lhs_expand = '<C-\><C-e>'
   let g:sparkup.lhs_jump_next_empty_tag = '<C-\><C-f>'
 VAMActivate sparkup
-VAMActivate vim-less
+VAMActivate vim-less@groenwege
 VAMActivate xmledit
   let g:xml_jump_string = "`"
 VAMActivate ragtag
