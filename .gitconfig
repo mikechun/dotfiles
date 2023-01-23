@@ -1,0 +1,5 @@
+# Place this file in your HOME directory
+
+# Use work credentials for all repo under this directory
+[includeIf "gitdir:~/Documents/projects/threeducks/"]
+    path = ~/Documents/projects/threeducks/.gitconfig
