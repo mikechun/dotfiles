@@ -1,5 +1,14 @@
 # Place this file in your HOME directory
 
+[user]
+  name = Michael Chun
+  email = 771400+mikechun@users.noreply.github.com
+
+[core]
+    sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/path-to-your-key -F /dev/null
+
 # Use work credentials for all repo under this directory
-[includeIf "gitdir:~/Documents/projects/threeducks/"]
-    path = ~/Documents/projects/threeducks/.gitconfig
+[includeIf "gitdir:~/projects/--name--/"]
+    path = ~/projects/--name__/.gitconfig
+
+
