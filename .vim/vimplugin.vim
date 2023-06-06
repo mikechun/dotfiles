@@ -8,9 +8,3 @@ endif
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
-
-call plug#begin('~/.vim/plugged')
-Plug 'junegunn/seoul256.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
-call plug#end()
